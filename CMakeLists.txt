@@ -14,8 +14,9 @@ set(INCLUDES ${SDL2_INCLUDE_DIRS} ${SDL2_IMAGE_INCLUDE_DIRS})
 
 set(LIBS ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES})
 
-
+# note: this line will be changed later on 
 include_directories(${INCLUDES} source/test.h)
 
+# note: this line will be changed later on
 add_executable(SDL2Test source/main.cpp)
 target_link_libraries(SDL2Test  ${LIBS})
